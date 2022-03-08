@@ -40,33 +40,8 @@ header{
     color: aliceblue;
 }
 
-.hamburguer{
-    position: fixed;
-    top: 30px;
-    right: 30px;
-    background: white;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
-}
 
-.menu-navegacion{
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 30vw;
-    height: 100%;
-    background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    /*transition: transform 0.3s ease-in-out; */
-    transform: translate(110%);
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-}
+
 
 .spread{
     transform: translate(0);
@@ -105,12 +80,16 @@ header{
 }
 
 .contenedor-servicio img{
-    width: 70%;
+    width: 20%;
 }
 
 .service p{
     font-size: 30px;
     color: #120420;
+}
+.service h3{
+    font-size: 30px;
+    color: #6020a0;
 }
 
 .checklist-servicio{
@@ -156,4 +135,68 @@ header{
     width: 80%;
     display: block;
     margin: auto;
+}
+
+.n-expert{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+}
+
+/*------------------------------------------FOOTER-----------------------------------*/
+
+footer{
+    background: #270544;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us{
+    width: 40%;
+    color: white;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+
+.social-media-icon:hover{
+    background: white;
+    color: #5A189A;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
 }
