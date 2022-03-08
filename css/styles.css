@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(135deg, rgba(11, 14, 29, 0.555) 0%, rgba(45, 5, 85, 0.637) 100%), url(../images/arnold-francisca-f77Bh3inUpE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.hamburguer{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: white;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+.menu-navegacion{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /*transition: transform 0.3s ease-in-out; */
+    transform: translate(110%);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.spread{
+    transform: translate(0);
+}
+
+.menu-navegacion a{
+    color: white;
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 50px;
+}
+
+
+/*-------------------------------------BODY-------------------------------------------*/
+
+.subtitulo{
+    text-align: center;
+    font-weight: 500;
+    color: #5A189A;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img{
+    width: 70%;
+}
+
+.service p{
+    font-size: 30px;
+    color: #120420;
+}
+
+.checklist-servicio{
+    width: 95%;
+}
+
+.n-service{
+    margin-bottom: 40px;
+    color: #3C096C;
+}
+
+.gallery{
+    background: #efd5fd;
+}
+
+.contenedor-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-galeria{
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+.experts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont-experts{
+    width: 30%;
+    text-align: center;
+    margin-bottom:20px ;
+}
+
+.cont-experts img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
